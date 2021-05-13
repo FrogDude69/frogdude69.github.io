@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Site Pacman</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style></style>
+   </head>
+   <body style="text-align: center;">
+      <div class="header">
+         <h1>Projet Integrateur</h1>
+         <p>Loic Plante et Philippe Brosseau</p>
+      </div>
+      <div class="navbar">
+      <a href="index.html">Acceuil</a>
+			<a href="form.html">Formulaire</a>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+      <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Log In</button>
+		</div>
+      <div class="main">
+         <form action="/action_page.php" class="form">
+            <h2>Donnez nous votre opinion!</h2>
+            <label for="name">Votre Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Nom complet">
+            <br>
+            <br>
+            <label for="age">Votre Age :</label>
+            <select name="age" id="age">
+               <option>0 à 20</option>
+               <option>20 à 35</option>
+               <option>35 à 44</option>
+               <option>45 à 54</option>
+               <option>55 à 64</option>
+               <option>65 +</option>
+            </select>
+            <br>
+            <br>
+            <div id="table">
+               <table>
+                  <tr>
+                     <div id="none">
+                        <td></td>
+                     </div>
+                     <td class="ftt">Tres Bien</td>
+                     <td class="ftt">Bien</td>
+                     <td class="ftt">Neutre</td>
+                     <td class="ftt">Mauvaise</td>
+                     <td class="ftt">Tres Mauvaise</td>
+                  </tr>
+                  <tr>
+                     <td class="ftt">Installation</td>
+                     <td><input type="radio" name="instal"></td>
+                     <td><input type="radio" name="instal"></td>
+                     <td><input type="radio" name="instal"></td>
+                     <td><input type="radio" name="instal"></td>
+                     <td><input type="radio" name="instal"></td>
+                  </tr>
+                  <tr>
+                     <td class="ftt">Controles</td>
+                     <td><input type="radio" name="control"></td>
+                     <td><input type="radio" name="control"></td>
+                     <td><input type="radio" name="control"></td>
+                     <td><input type="radio" name="control"></td>
+                     <td><input type="radio" name="control"></td>
+                  </tr>
+                  <tr>
+                     <td class="ftt">Graphiques</td>
+                     <td><input type="radio" name="graphic"></td>
+                     <td><input type="radio" name="graphic"></td>
+                     <td><input type="radio" name="graphic"></td>
+                     <td><input type="radio" name="graphic"></td>
+                     <td><input type="radio" name="graphic"></td>
+                  </tr>
+                  <tr>
+                     <td class="ftt">Jeux</td>
+                     <td><input type="radio" name="jeu"></td>
+                     <td><input type="radio" name="jeu"></td>
+                     <td><input type="radio" name="jeu"></td>
+                     <td><input type="radio" name="jeu"></td>
+                     <td><input type="radio" name="jeu"></td>
+                  </tr>
+               </table>
+            </div>
+            <br>
+            <br>
+            <strong>Recommenderais tu ce jeux?</strong>
+            <table>
+               <tr>
+                  <td><input type="radio" name="rec"></td>
+                  <td><p>Defenetivement</p></td>
+               </tr>
+               <tr>
+                  <td><input type="radio" name="rec"></td>
+                  <td><p>Probablement</p></td>
+               </tr>
+               <tr>
+                  <td><input type="radio" name="rec"></td>
+                  <td><p>Neutre</p></td>
+               </tr>
+               <tr>
+                  <td><input type="radio" name="rec"> </td>
+                  <td><p>Probablement Pas</p></td>
+               </tr>
+               <tr>
+                  <td><input type="radio" name="rec"> </td>
+                  <td><p>Jamais</p></td>
+               </tr>
+            </table>
+            <br>
+            <br>
+            <label><strong>Quel est la meilleur chose a propos jeux?</strong>
+            <br>
+            <textarea></textarea>
+            <br>
+            <br>
+            <label><strong>Quel est la pire chose a propos jeux?</strong>
+            <br>
+            <textarea></textarea>
+            <br>
+            <br>
+            <label><strong>Autre commentaires/suggestion?</strong>
+            <br>
+            <textarea></textarea>
+            <br><input type="submit" value="Submit">
+         </form>
+      </div>
+      <div class="footer">
+			<h3>© 2020-2021, loicetphil.com, Inc. et ces affiliants</h3>
+		</div>
+   </body>
+</html>
