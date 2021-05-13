@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.textfloat {
+  float: right;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+.btn {
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #25eec6;
+}
+
+.dlb a{
+  text-decoration: none;
+}
+
+input[type=text], select {
+  padding: 5px 5px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  width: 40px;
+}
+
+table, th, td, tr {
+  margin: auto;
+  text-align: left;
+}
+
+#table table {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+#table tr {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+#table td {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.ftt {
+  background-color: #eee;
+  padding: 10px;
+}
+
+button {
+  background-color: #333;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border: none;
+  float: right;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h1 {
+  text-align:center 
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  padding: 5px 5px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
