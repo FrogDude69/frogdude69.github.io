@@ -45,6 +45,7 @@ body {
   flex: 70%;
   background-color: white;
   padding: 20px;
+  text-align: center;
 }
 
 
@@ -135,6 +136,7 @@ button {
   border: none;
   float: right;
   font-size: 16px;
+  margin: auto;
 }
 
 button:hover {
