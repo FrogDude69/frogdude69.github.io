@@ -216,7 +216,8 @@ hr {
   float: right;
 }
 
-.hidebtn {
+.hidref {
+  text-decoration: none;
   background-color: #1abc9c;
   color: white;
   padding: 14px 20px;
@@ -224,5 +225,5 @@ hr {
   border: none;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.9; 
 }
