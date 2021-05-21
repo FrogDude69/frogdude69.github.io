@@ -5,7 +5,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  text-align: center;
 }
 
 .header {
@@ -24,7 +23,9 @@ body {
   background-color: #333;
 }
 
-.navbar a {
+
+
+.navbar a{
   float: left;
   display: block;
   color: white;
@@ -46,8 +47,8 @@ body {
   flex: 70%;
   background-color: white;
   padding: 20px;
+   text-align: center;
 }
-
 
 .textfloat {
   float: right;
@@ -159,10 +160,6 @@ textarea {
   resize: none;
 }
 
-/*-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-==-=-=-=-=-=-=-=*/
-
-* {box-sizing: border-box}
-/* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -171,14 +168,12 @@ textarea {
   border: none;
   background: #f1f1f1;
 }
-
-/* Add a background color when the inputs get focus */
+*/
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for all buttons */
 .formbtn {
   background-color: #04AA6D;
   color: white;
@@ -194,29 +189,40 @@ input[type=text]:focus, input[type=password]:focus {
   opacity:1;
 }
 
-/* Add padding to container elements */
 .container {
   padding: 16px;
 }
 
-
-
-/* Style the horizontal ruler */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+
+.hidden {
+  font-size: 1;
+  text-decoration: none;
+  float: right;
+}
+
+.hidebtn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
 }
